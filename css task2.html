@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        ul{
+            background-color:powderblue;
+            width:130px;
+            padding:0;
+        }
+        LI a{
+            text-decoration:none;
+            display:block;
+            padding: 7px 5px;
+        }
+        LI a.active{
+            background-color:orange;
+            color:white;
+        }
+
+        LI a:hover:not(.active){
+            background-color:#555;
+            color:white;
+        }
+        .hn {
+        background-color: #eeecec;
+        width:20%;
+        margin-left: 10px;
+        margin-top: 10px;
+        OVERFLOW:HIDDEN;
+        }
+        .hn a {
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        .hn a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+        .hn a.main {
+        background-color: #8c8888;
+        color: white;
+}
+      
+    </style>
+</head>
+<body>
+    <h5>Vertical Navigation Bar</h5>
+    <ul>
+        <li><a class=active href="#home">Home</a></li>
+        <li><a href="https://www.Java.com">Java</a></li>
+        <li><a href="https://www.CSS.com">CSS</a></li>
+        <li><a href="https://www.HTML.com">HTML</a></li>
+        <li><a href="https://www.Bootstrap.com">Bootstrap</a></li>
+    </ul>
+
+    <h5>Horizontal Navigation Bar</h5>
+    <div class="hn">
+        <a class="main"href="#home">Home</a>
+        <a href="https://www.Java.com">Java</a>
+        <a href="https://www.HTML.com">HTML</a>
+        <a href="https://www.CSS.com">CSS</a>
+      
+      </div>
+</body>
+</html>
